@@ -13,6 +13,8 @@ def create_project_hash
       :location => project.css(".project-meta").css('a').attribute("data-location").value
       :percent_funded => project.css("ul.project-stats li.first.funded strong").text
     }
+  end 
+  return projects
 end
  
 create_project_hash
