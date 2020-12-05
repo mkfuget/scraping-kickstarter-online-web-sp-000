@@ -13,4 +13,4 @@ create_project_hash
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # project.css("p.bbcard_blurb").text
 #variable_name.css(".project-meta").css('a').attribute("data-location").value
-#variable_name.css(".project-stats").css('.first funded').css('strong).text
+#variable_name.css(".first funded").css('.first funded').css('strong).text
